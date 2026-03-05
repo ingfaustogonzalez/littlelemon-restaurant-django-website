@@ -223,13 +223,13 @@ cd littlelemon-restaurant-django-website
 pip install -r requirements.txt
 
 # Run migrations
-python manage.py migrate
+python3 manage.py migrate
 
 # Create superuser (optional)
-python manage.py createsuperuser
+python3 manage.py createsuperuser
 
 # Start development server
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 # Open in browser:
